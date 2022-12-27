@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  server:
+  
+    build: Server/
+
+    command: bash -c "gcc mud.c && ./a.out"
+
+    ports:
+      - 9034:9034
