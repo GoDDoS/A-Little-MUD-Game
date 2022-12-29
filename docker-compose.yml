@@ -9,4 +9,4 @@ services:
     command: bash -c "gcc mud.c && ./a.out"
 
     ports:
-      - 9034:9034
+      - "${PORT}:9034"
